@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zadatak 2</title>
+</head>
+<body>
+    <h1>Software Order Form</h1>
+    <fieldset>
+        <legend>Licence details</legend>
+        <ul>
+        <li>
+        <label for="email" >Email address</label>
+        <input type="text" name="email" id="name" required>
+        </li>
+    <li>
+        <label for="website">Website</label>
+        <input type="text" name="website" id="website" placeholder="http://www.example.com" required>
+    </li>
+    <li>
+        <label for="licences">Number of licences</label>
+        <input type="text" name="licences" id="licences" placeholder="How many to buy(1-10)" required>
+    </li>
+</ul>
+    </fieldset>
+    <fieldset>
+        <legend>Billing details</legend>
+        <ul>
+            <li>
+                <label for="name" >Name</label>
+                <input type="text" name="name" id="name" placeholder="FirstLast" required>
+            </li>
+            <li>
+                <label for="address" >Address</label>
+                <textarea name="address" id="address" placeholder="House number,&#10; street, city, state" required></textarea>
+            </li>
+            <li>
+                <label for="postal code" >Postal code</label>
+                <input type="text" name="postal code" id="postal code" placeholder="Post code or zip code" required>
+            </li>
+            <li> Country
+                <select name="Country" required>
+                    <option value="Montenegro">Montenegro</option>
+                    <option value="Italy">Italy</option>
+                    <option value="France">France</option>
+                    <option value="Hungary">Hungary</option>
+                    <option selected value="Australia">Australia</option>
+                </select>
+            </li>
+                <li>
+                <label for="phone" >Phone<i>(optional)</i></label>
+                <input type="text" name="phone" id="phone" placeholder="Include country prefix, e.g. +382" >
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Payment details</legend>
+        <ul>
+            <li>
+                <label for="card num">Card number</label>
+                <input type="text" name="card num" id="card num" placeholder="As shown on the front of your card" required>
+            </li>
+            <li>
+
+                <label for="cvv" >CVV Code</label>
+                <input type="text" name="cvv" id="cvv" placeholder="3-digit code on the back of your card" required>
+            </li>
+            <li>
+                <label for="date">Expiry date</label>
+                <input type="text" name="date" id="date" placeholder="YYYY-MM" required>
+            </li>
+        </ul>
+    </fieldset>
+    <input type="submit" value="Place Your Order" style="border-radius: 18px;
+    -moz-border-radius: 5px;">
+</body>
+</html>

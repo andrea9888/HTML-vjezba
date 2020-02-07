@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zadatak1</title>
+</head>
+<body>
+    <form>
+        <table border="1">
+       <tr>
+           <td colspan="2" style="text-align: center;">
+            <strong>Pizza Shop 2.0</strong>
+           </td>
+       </tr>
+            <tr>
+                <td>
+                    <label for="name">Name</label> </td>
+                    <td>
+                    <input type="text" name="name" id="name" maxlength="20" required>
+                </td>
+            </tr>  
+            <tr >
+                <td>Pizza Topping</td>
+                <td>
+                    
+                    <input type='radio' name="pizza topping" id="supreme">
+                    <label for="supreme">Supreme</label>
+                    <br>
+                    
+                    <input type='radio' name="pizza topping" id="vegeterian">
+                    <label for="vegeterian">Vegeterian</label>
+                    <br>
+                    
+                    <input type='radio' name="pizza topping" id="hawaiian">
+                    <label for="hawaiian">Hawaiian</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                <select name="Pizza Sauce">
+                    <option value="tomato">Tomato</option>
+                    <option value="garlic">Garlic</option>
+                    <option value="hot sauce">Hot Sauce</option>
+                    <option value="mayo">Mayo</option>
+                    <option selected value="Tomato" hidden>Tomato</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional extra</td>
+                <td>
+                    
+                    <input type="checkbox" name="Extra Cheese" value="Extra Cheese">
+                    <label for="Extra Cheese">Extra Cheese </label><br>
+                    <input type="checkbox" name="Gluten Free Base" value="Gluten Free Base">
+                    <label for="Gluten Free Base">Gluten Free Base </label><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Delivery Instructions:
+                    <br>
+                    <textarea name="comment" maxlength="100" style="margin: 0px; width: 337px; height: 160px;" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Send my Order">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

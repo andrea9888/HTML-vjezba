@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="task_1">
+        <nav>
+            <a href="#task_1">Zadatak 1</a>
+            <a href="#task_2">Zadatak 2</a>
+            <a href="#task_3">Zadatak 3</a>
+            <a href="#task_4">Zadatak 4</a>
+        </nav>
+    </div>
+    <br>
+    <div id="task_2">
+        <h1>Curriculum vitae</h1>
+        <h2>Personal information</h2> 
+        <p>
+        <img src="../vjezba1/andrea.jpg" alt="Lična slika" width="100px" height="100px" style="float:left; padding-right: 10px;"> 
+        Krivokapić Andrea<br>
+        Serdara Jola Piletića 13 <br>
+        andrea98.com@gmail.com <br>
+        +38269864420<br>
+        <a href="https://www.facebook.com/andrea9888">Facebook</a>
+        </p>
+        <br>
+        <h2>Education and training</h2>
+        
+            <table>
+                <tr>
+
+                    <td>2013-2017</td>
+                    <td>
+                        <strong>Graduate</strong>
+                    <br>
+                        Gimnazija "Slobodan Škerović", Podgorica (Montenegro)
+                    </td>
+
+                </tr>
+               
+                <tr>
+                    <td>2017-present</td>
+                    <td>
+                        <strong>Undergraduate</strong>
+                        <br>
+                        Elektrotehnički fakultet, Podgorica (Montenegro)
+                    </td>
+                </tr>
+            </table>
+        
+        <h2>Programming languages</h2>
+        <p>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+        </ul>
+        </p>
+        <h2>Other skills</h2>
+        <p>
+            <h3>Foreign languages</h3>
+            <ol type="a">
+                <li>English (advanced)</li>
+                <li>Italian (intermidiate)</li>
+                <li>German (beginner)</li>
+            </ol>
+            
+        </p>
+    </div><br>
+    <div id="task_3">
+        <table border="1">
+            <caption><i>Omiljeni filmovi</i></caption>
+            <tr>
+                <td><strong>Ime filma</strong></td>
+                <td><strong>Kratak opis</strong></td>
+                <td><strong>Zanr</strong></td>
+                <td><strong>Datum izlaska</strong></td>
+                <td><strong>Cover slika</strong></td>
+                <td><strong>Link</strong></td>
+            </tr>
+            <tr>
+                <td>The Shawshank Redemption</td>
+                <td>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</td>
+                <td>Drama</td>
+                <td>17/02/1995</td>
+                <td><img src="shawshank.jpg" width="100" height="150"></td>
+                <td><a href="https://www.imdb.com/title/tt0111161/">IMDb</a></td>
+            </tr>
+            <tr>
+                <td>Dead Poets Society</td>
+                <td>English teacher John Keating inspires his students to look at poetry with a different perspective of authentic knowledge and feelings.</td>
+                <td>Comedy, Drama</td>
+                <td>22/09/1989</td>
+                <td><img src="poets.jpg" width="100" height="150"></td>
+                <td><a href="https://www.imdb.com/title/tt0097165/?ref_=nv_sr_srsg_0">IMDb</a></td>
+            </tr>
+            <tr>
+                <td>Birdman</td>
+                <td>A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.</td>
+                <td>Comedy, Drama</td>
+                <td>01/01/2015</td>
+                <td><img src="birdman.jpg" width="100" height="150"></td>
+                <td><a href=https://www.imdb.com/title/tt2562232/?ref_=nv_sr_srsg_0>IMDb</a></td>
+            </tr>
+            <tr>
+                <td>Prestige</td>
+                <td>After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.</td>
+                <td>Drama, Mystery, Sci-fi</td>
+                <td>10/11/2016</td>
+                <td><img src="prestige.jpg" width="100" height="150"></td>
+                <td><a href="https://www.imdb.com/title/tt0482571/?ref_=nv_sr_srsg_0">IMDb</a></td>
+            </tr>
+            <tr>
+                <td>Midnight in Paris</td>
+                <td>While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.</td>
+                <td>Drama, Fantasy, Romance</td>
+                <td>07/10/2011</td>
+                <td><img src="paris.jpg" width="100" height="150"></td>
+                <td><a href="https://www.imdb.com/title/tt1605783/?ref_=nv_sr_srsg_0">IMDb</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="task_4">
+        <form>
+            <h1>Job Application With Resume Upload</h1>
+            <h2>Contact Information</h2>
+            <label for="fname" > First name</label> 
+            <label for="lname" style="margin-left: 105px;" >Last name</label><br> 
+            <input type="text" name="fname" id="fname" required>
+            <input type="text" name="lname" id="lname" required>
+            <br><br>
+            <label for="email" >Email</label><br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="phone" >Phone</label><br>
+            <input type="tel" name="phone" id="phone" required><br><br>
+            <h2>Position</h2>
+            <label for="position" >Position you are applying for</label>
+            <br>
+            <select name="position" required>
+                <option value="nodejs">Backend NodeJS</option>
+                <option value="python">Backend Python</option>
+                <option value="react">Frontend React</option>
+                <option value="angular">Frontend Angular</option>
+                <option selected value="python">Backend Python</option>
+            </select>
+            <br><br>
+            <label for="resume">Resume upload</label><br>
+            <input type="file" id="resume" name="resume" accept="image/png, image/jpeg">
+            <br><br>
+            <label for="portfolio">Portfolio website</label><br>
+            <input type="text" id="portfolio" name="portfolio">
+            <br><br>
+            <label for="salary">Salary requirements</label><br>
+            <input type="text" id="salary" name="salary">
+            <br><br>
+            <label for="start">When can you start?</label><br>
+            <input type="text" id="start" name="start">
+            <br><br>
+            <label for="relocate">Are you willing to relocate?</label>
+            <br>
+            <input type="radio" name="relocate" id="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" name="relocate" id="no">
+            <label for="no">No</label><br>
+            <input type="radio" name="relocate" id="not sure">
+            <label for="not sure">Not Sure</label><br><br>
+            <label for="last company">Last company you worked for</label><br>
+            <input type="text" id="last company" name="last company">
+            <br><br>
+            <label for="comment">Comments</label><br>
+            <textarea name="comment"
+                    cols="30"
+                    rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
